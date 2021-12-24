@@ -17,3 +17,7 @@ Read all items from list (to console):
 
 Read specific note by title:
 `tsc && node dist/app.js read --title="Sawcon"`
+
+## Debug
+
+Add `debugger` to code and run: `tsc && node inspect dist/app.js {command} {args}`
